@@ -108,7 +108,7 @@ export default function FiltersSection() {
           </button>
         </div>
 
-        <div className="lg:grid lg:grid-cols-3 gap-4 mt-16 mx-auto flex flex-nowrap	overflow-auto -mr-7 -ml-3">
+        <div className="lg:grid lg:grid-cols-3 gap-4 mt-10 lg:mt-16 mx-auto flex flex-nowrap	overflow-auto -mr-7">
           {cardItems.map((item) => (
             <div
               key={item.title + item.avatar}

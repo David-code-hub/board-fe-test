@@ -18,7 +18,7 @@ export default function GameCarouselSection() {
           </p>
         </div>
 
-        <div className="flex gap-4 lg:pb-20 pb-10">
+        <div className="flex gap-4 lg:pb-20 pb-10 overflow-x-clip lg:overflow-visible">
           <img
             src={CarouselImageOne}
             alt="board carousel item"
