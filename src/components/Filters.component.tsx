@@ -59,65 +59,65 @@ const cardItems = [
 export default function FiltersSection() {
   return (
     <div>
-      <div className="h-[1447px] bg-[#2D1E6B] px-20">
-        <p className="text-[66px] uppercase font-extrabold leading-[76.96px] tracking-[4px] text-white text-center lg:w-1/2 mx-auto pb-10">
+      <div className="h-full lg:h-[1447px] bg-[#2D1E6B] px-7 lg:px-20">
+        <p className="text-[34.29px] lg:text-[66px] uppercase mt-7 lg:mt-0 font-extrabold leading-[37.92px] lg:leading-[76.96px] tracking-[4px] text-white text-center lg:w-1/2 mx-auto pb-10">
           Welcome to the top{" "}
           <span className="banner-gradient-text"> games</span>
         </p>
 
         <div className="flex justify-center gap-2">
           <button
-            className="!h-[64px] banner-gradient-button
+            className="!h-[42.54px] lg:!h-[64px] banner-gradient-button
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px]
+            button-slanted w-[160.21px] lg:w-[232px]
             "
           >
-            <span className="slanted-inner-text lato-bold text-white text-[20px] uppercase">
+            <span className="slanted-inner-text lato-bold text-white text-[11.97px] lg:text-[20px] uppercase">
               Newest games
             </span>
           </button>
           <button
-            className="!h-[64px] banner-gradient-button
+            className="!h-[42.54px] lg:!h-[64px] banner-gradient-button 
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] button-outlined
+            button-slanted w-[160.21px] lg:w-[232px] button-outlined
             "
           >
-            <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
+            <span className="slanted-inner-text lato-normal text-[11.97px] lg:text-[20px] uppercase text-white">
               Latest games
             </span>
           </button>
           <button
-            className="!h-[64px] banner-gradient-button
+            className="!h-[42.54px] lg:!h-[64px] banner-gradient-button 
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] button-outlined
+            button-slanted w-[160.21px] lg:w-[232px] button-outlined
             "
           >
-            <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
+            <span className="slanted-inner-text lato-normal text-[11.97px] lg:text-[20px] uppercase text-white">
               Fight games
             </span>
           </button>
           <button
-            className="!h-[64px] banner-gradient-button
+            className="!h-[42.54px] lg:!h-[64px] banner-gradient-button 
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] button-outlined
+            button-slanted w-[160.21px] lg:w-[232px] button-outlined
             "
           >
-            <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
+            <span className="slanted-inner-text lato-normal text-[11.97px] lg:text-[20px] uppercase text-white">
               sport games
             </span>
           </button>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mt-16 mx-auto">
+        <div className="lg:grid lg:grid-cols-3 gap-4 mt-16 mx-auto flex flex-nowrap	overflow-auto -mr-7 -ml-3">
           {cardItems.map((item) => (
             <div
               key={item.title + item.avatar}
-              className="p-5 rounded-[10px] w-[397px] h-[537px] backdrop-blur-md bg-white/5 border-2 border-[#d9d9d940] mb-5 mx-auto"
+              className="p-5 rounded-[10px] w-fit lg:w-[397px] h-full lg:h-[537px] backdrop-blur-md bg-white/5 border-2 border-[#d9d9d940] mb-5 mx-auto shrink-0"
             >
               <img
                 src={item.image}
                 alt="filter item"
-                className="lg:w-[361px] lg:h-[265px]"
+                className="h-[221.61px] lg:w-[361px] lg:h-[265px]"
               />
 
               <p className="capitalize text-[24px] leading-[26.54px] tracking-[1px] text-white my-7 lato-normal">
@@ -140,12 +140,12 @@ export default function FiltersSection() {
                 </div>
               </div>
               <button
-                className="h-[74px] banner-gradient-button
+                className="h-[43.49px] lg:h-[74px] banner-gradient-button
           bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
           button-slanted w-[232px] w-full !h-[52px]
           "
               >
-                <span className="slanted-inner-text lato-bold text-white text-[18px] uppercase">
+                <span className="slanted-inner-text lato-bold text-white text-[15.05px] lg:text-[18px] uppercase">
                   Live Demo
                 </span>
               </button>
