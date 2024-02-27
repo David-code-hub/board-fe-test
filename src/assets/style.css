@@ -685,8 +685,13 @@ video {
   text-decoration-line: underline;
 }
 
+html {
+  background-color: white;
+}
+
 body {
   background-color: #2d1e6b;
+  max-width: 1440px;
 }
 
 .banner-image {
