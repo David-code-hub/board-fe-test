@@ -1,4 +1,3 @@
-import BannerImage from "../assets/mobile-banner.png";
 import StarGradientImage from "../assets/star-gradient.png";
 import Navigation from "./layout/Navigaion.component";
 
