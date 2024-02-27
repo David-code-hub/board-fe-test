@@ -1,5 +1,6 @@
 import BagIcon from "../../assets/bag-icon.png";
 import Logo from "../../assets/logo.png";
+import Badge from "../../assets/badge.png";
 
 const navigation = [
   { name: "PRODUCTS", href: "#" },
@@ -40,7 +41,7 @@ export default function Navigation() {
             <a
               key={item.name}
               href={item.href}
-              className="text-[18px] font-normal leading-[19.91px] text-white nav-tab tracking-[1px]"
+              className="text-[18px] lato-normal leading-[19.91px] text-white nav-tab tracking-[1px]"
             >
               {item.name}
             </a>
@@ -48,6 +49,11 @@ export default function Navigation() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <img src={BagIcon} className="bag-icon" alt="bag cart" />
+          <img
+            src={Badge}
+            className="h-[6px] w-[6px] left-[-4px] top-[7px] relative"
+            alt="bag cart"
+          />
         </div>
       </nav>
     </div>

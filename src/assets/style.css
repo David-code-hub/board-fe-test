@@ -6,102 +6,112 @@
 */
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoBoldItalic.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoBoldItalic.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoBoldItalic.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoBoldItalic.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoBoldItalic.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoBoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoExtraLightItalic.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoExtraLightItalic.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoExtraLightItalic.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoExtraLightItalic.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoExtraLightItalic.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoExtraLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoItalic.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoItalic.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoItalic.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoItalic.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoItalic.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoExtraLightRegular.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoExtraLightRegular.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoExtraLightRegular.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoExtraLightRegular.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoExtraLightRegular.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoExtraLightRegular.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoLightItalic.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoLightItalic.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoLightItalic.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoLightItalic.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoLightItalic.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoLightItalic.ttf") format("truetype");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoBoldRegular.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoBoldRegular.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoBoldRegular.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoBoldRegular.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoBoldRegular.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoBoldRegular.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoLightRegular.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoLightRegular.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoLightRegular.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoLightRegular.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoLightRegular.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoLightRegular.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoRegular.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoRegular.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoRegular.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoRegular.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoRegular.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoRegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoMediumItalic.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoMediumItalic.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoMediumItalic.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoMediumItalic.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoMediumItalic.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoMediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 @font-face {
   font-family: "Ondo";
-  src: url("fonts/FONTSPRINGDEM.O-OndoMediumRegular.woff2") format("woff2"),
-    url("fonts/FONTSPRINGDEM.O-OndoMediumRegular.woff") format("woff"),
-    url("fonts/FONTSPRINGDEM.O-OndoMediumRegular.ttf") format("truetype");
+  src: url("fonts/FONTSPRINGDEMO-OndoMediumRegular.woff2") format("woff2"),
+    url("fonts/FONTSPRINGDEMO-OndoMediumRegular.woff") format("woff"),
+    url("fonts/FONTSPRINGDEMO-OndoMediumRegular.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+20-21, U+3F, U+41-5A, U+61-7A;
 }
 
 *,
@@ -135,8 +145,8 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
   tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: "Ondo", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -596,6 +606,67 @@ video {
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
 }
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-normal {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -652,6 +723,16 @@ video {
   right: 1px;
   bottom: 1px;
   left: 1px;
+  background-color: #2d1e6b;
+}
+
+.button-outlined-banner::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
   background-color: white;
 }
 
@@ -683,4 +764,12 @@ video {
 
 .nav-tab:first-child {
   font-weight: 800 !important;
+}
+
+.footer-image {
+  background-image: url("../assets/footer.png");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-blend-mode: color-dodge;
 }
