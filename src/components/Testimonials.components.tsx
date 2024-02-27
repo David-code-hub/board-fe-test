@@ -19,23 +19,19 @@ export default function TestimonialsSection() {
             <img
               src={StarGradientImage}
               alt="star gradient board"
-              className="mx-6 my-auto star-image"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             Action Packed
             <img
               src={StarGradientImage}
-              height="36"
-              width="36"
               alt="star gradient board"
-              className="mx-6 my-auto star-image"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             mind - bending
             <img
               src={StarGradientImage}
-              height="36"
-              width="36"
               alt="star gradient board"
-              className="mx-6 my-auto star-image"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             collection og games
           </div>

@@ -15,7 +15,7 @@ export default function Banner() {
               mind <span className="banner-gradient-text">explore</span> <br />
               new world
             </h1>
-            <p className="text-[16px] lg:text-[18.72px] text-white leading-[34.64px] lato-normal mt-5 mb-0 lg:mb-12 z-10 relative">
+            <p className="text-[16px] lg:text-[18.72px] text-white leading-[27.46px] lg:leading-[34.64px] lato-normal mt-5 mb-0 lg:mb-12 z-10 relative">
               Playing electronic games, whether through consoles, computers,
               mobile phones or another medium altogether. Gaming is a nuanced
               term that suggests regular gameplay, possibly as a hobby.
@@ -84,7 +84,7 @@ export default function Banner() {
             <img
               src={StarGradientImage}
               alt="star gradient board"
-              className="mx-6 my-auto lg:star-image h-[19.91px] w-[19.91px]"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             Action Packed
             <img
@@ -92,7 +92,7 @@ export default function Banner() {
               height="36"
               width="36"
               alt="star gradient board"
-              className="mx-6 my-auto lg:star-image h-[19.91px] w-[19.91px]"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             mind - bending
             <img
@@ -100,7 +100,7 @@ export default function Banner() {
               height="36"
               width="36"
               alt="star gradient board"
-              className="mx-6 my-auto lg:star-image h-[19.91px] w-[19.91px]"
+              className="mx-6 my-auto  h-[19.91px] w-[19.91px] lg:h-[36px] lg:w-[36px]"
             />
             collection og games
           </div>
