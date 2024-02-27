@@ -65,9 +65,9 @@ export default function FiltersSection() {
           <span className="banner-gradient-text"> games</span>
         </p>
 
-        <div className="flex justify-center gap-0">
+        <div className="flex justify-center gap-2">
           <button
-            className="h-[74px] banner-gradient-button
+            className="!h-[64px] banner-gradient-button
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
             button-slanted w-[232px]
             "
@@ -77,9 +77,9 @@ export default function FiltersSection() {
             </span>
           </button>
           <button
-            className="h-[74px] banner-gradient-button
+            className="!h-[64px] banner-gradient-button
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] ml-5 button-outlined
+            button-slanted w-[232px] button-outlined
             "
           >
             <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
@@ -87,9 +87,9 @@ export default function FiltersSection() {
             </span>
           </button>
           <button
-            className="h-[74px] banner-gradient-button
+            className="!h-[64px] banner-gradient-button
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] ml-5 button-outlined
+            button-slanted w-[232px] button-outlined
             "
           >
             <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
@@ -97,9 +97,9 @@ export default function FiltersSection() {
             </span>
           </button>
           <button
-            className="h-[74px] banner-gradient-button
+            className="!h-[64px] banner-gradient-button
             bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-            button-slanted w-[232px] ml-5 button-outlined
+            button-slanted w-[232px] button-outlined
             "
           >
             <span className="slanted-inner-text lato-normal text-[20px] uppercase text-white">
@@ -142,7 +142,7 @@ export default function FiltersSection() {
               <button
                 className="h-[74px] banner-gradient-button
           bg-gradient-to-r from-[#6542F4] via-[#F976FF] to-[#B50098] w-1/2
-          button-slanted w-[232px] w-full h-[52px]
+          button-slanted w-[232px] w-full !h-[52px]
           "
               >
                 <span className="slanted-inner-text lato-bold text-white text-[18px] uppercase">
