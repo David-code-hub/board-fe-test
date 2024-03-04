@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
               hidden secrets within games. The guides are comprehensive, easy to
               follow, and have undoubtedly elevated my gaming performance.
             </p>
-            <div className="w-full h-[1px] bg-gradient-to-r from-white my-7"></div>
+            <div className="w-full h-[1px] bg-gradient-to-r from-white my-5"></div>
             <div className="flex gap-4 mb-7">
               <img
                 src={TestimonialImage_1}
@@ -107,7 +107,7 @@ export default function TestimonialsSection() {
               and found like-minded individuals who share my enthusiasm for
               gaming.
             </p>
-            <div className="w-full h-[1px] bg-gradient-to-r from-white my-7"></div>
+            <div className="w-full h-[1px] bg-gradient-to-r from-white my-5"></div>
             <div className="flex gap-4 mb-7">
               <img
                 src={TestimonialImage_2}
