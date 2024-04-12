@@ -1,6 +1,12 @@
-## board ui 
-#### tailwind x react
+## Modern landing page
 
-[link to website](https://david-code-hub.github.io/board-fe-test/)
+### Tech stack 🤌
+- Reactjs
+- Tailwind
 
--2024 Feb
+
+![Screenshot 2024-04-12 at 20 47 53](https://github.com/David-code-hub/board-fe-test/assets/55393687/8a002b81-716e-4427-99b1-85e25c8eb775)
+
+[Check it out](https://david-code-hub.github.io/board-fe-test/)
+
+_2024 Feb_
